@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    background: url(../img/city.png) 50% 0 no-repeat black;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.nav>li>a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-emphasis-color: white;
+    color: white;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 975px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.searching input {
+    border-radius: 9px;
+}
+
+.searching button {
+    border-radius: 9px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SVG-logo {
+    display: block;
+    width: 110px;
+    height: 30px;
+    background-image: url(../img/SVG.svg);
+}
+
+.city {
+    background-color: #000;
+    border-radius: 10px;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+.main-container {
+    background-color: #504949;
+    overflow: hidden;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.main-content {
+    position: relative;
+    width: 640px;
+    float: right;
+    border-left: 1px solid black;
+    background: #2b2b2b;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.extra-container {
+    display: block;
+    overflow: hidden;
+    background-color: #504949;          /* nenefsfeam */
+}
+
+.film-content {
+    border-top: 1px solid #504949;
+    padding: 5px 20px 10px;
+    float: left;
+    background: #2b2b2b;
+    clear: both;
+    color: white;
+    position: relative;
+    border-left: 1px solid #504949;
+}
+
+.film-name {
+    padding: 10px 0 12px;
+    color: white;
+    position: relative;
+    width: 500px;
+}
+
+.caption {
+    font-size: 15px;
+    text-shadow: 1px 1px #000;
+}
+
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-weight: bold;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+.Ult {
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+
+.icon {
+    border-bottom: 1px solid #534F4F;
+    background: #534F4F;
+    overflow: hidden;
+    position: relative;
+    border-left: 1px solid #534F4F;
+}
+
+.detail_1 {
+    float: left;
+    padding: 6px 0 4px 20px;
+}
+
+.detail_2 {
+    float: left;
+    padding: 7px 20px 19px 20px;
+}
+
+.detail_3 {
+    float: right;
+    padding: 5px 20px 19px 20px;
+}
+
+.name {
+    padding: 7px 20px;
+    position: relative;
+    border-bottom: 1px solid #534F4F;
+}
+
+.list {
+    border-top: 1px solid #534F4F;
+    overflow: auto;
+    padding: 20px 0 14px 20px;
+    margin-bottom: -5px;
+}
+
+i {
+    font-size: 15px;
+}
+
+.li_block {
+    position: relative;
+    float: left;
+    display: block;
+    padding: 0 20px 10px 0;
+}
+
+.li_block_title {
+    padding-bottom: 4px;
+}
+
+.li_block_title a {
+    font-weight: 700;
+    text-shadow: 1px 1px #000;
+    text-decoration: none;
+}
+
+.block_story {
+    font-size: 11px;
+    color: aliceblue;
+}
+
+.wrapper2 {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: #504949;
+}
+
+.base {
+    overflow: hidden;
+    border: 1px solid #504949;
+    border-radius: 10px;
+}
+
+.story {
+    font-size: 11px;
+    color: white;
+}
+
+img {
+    float: left;
+    vertical-align: top;
+}
+
+.li_block img {
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.film-img img {
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+footer {
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background: #504949;
+}
+
+.footer-text {
+    padding-bottom: 10px;
+    text-align: justify;
+    color: aliceblue;
+}
+
+.footer-text img {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.stronk {
+    text-align: center;
+    border-left: #504949;
+    padding: 0 10px 10px;
+    width: 95%;
+    border-bottom: 1px solid white;
+}
+
+strong {
+    font-weight: bold;
+    color: gray;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-box{
+    position: relative;
+    mask-repeat: no-repeat;
+    aspect-ratio: 16 / 9;
+}
+

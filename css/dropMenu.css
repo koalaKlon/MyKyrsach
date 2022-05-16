@@ -42,6 +42,12 @@
     display: none;
     float: none;
   }
+  footer{
+    display: block;
+  }
+  li{
+    font-size: large;
+  }
 }
 
 @media (max-width: 900px) {
@@ -96,4 +102,3 @@
     float: none;
   }
 }
-

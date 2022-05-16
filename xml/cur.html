@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example for xml</title>
+</head>
+
+<body>
+  <div>
+<b>to: </b><span id="to"></span><br>
+<b>From: </b><span id="from"></span><br>
+<b>heading: </b><span id="heading"></span><br>
+<b>message: </b><span id="message"></span><br>
+  </div>
+  <script>
+    if(window.XMLHttpRequest){
+      //
+      xmlhttp = new XMLHttpRequest();
+    }
+    else{
+      xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.open("GET","note.xml", false); //will open our document
+    xmlhttp.send(); //will send request 
+    xmlDoc = xmlhttp.responseXML;
+    document.getElementById("to").innerHTML= xmlDoc.getElementsByTagName("0")[0].childNodes[0].nodeValue;
+    document.getElementById("from").innerHTML= xmlDoc.getElementsByTagName("0")[0].childNodes[0].nodeValue;
+    document.getElementById("heading").innerHTML= xmlDoc.getElementsByTagName("0")[0].childNodes[0].nodeValue;
+    document.getElementById("message").innerHTML= xmlDoc.getElementsByTagName("0")[0].childNodes[0].nodeValue;
+    
+
+
+
+  </script>
+</body>
+
+</html>

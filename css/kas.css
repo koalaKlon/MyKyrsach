@@ -1,0 +1,36 @@
+p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text{
+    width: 96%;
+}
+
+footer {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background: #504949;
+}
+@media (min-width: 700px) {
+    
+footer{
+    padding-bottom: 10px;
+    display: flex;
+}
+
+footer img{
+    height: 65px!important;
+    width: 65px!important;
+}
+
+.fot{
+    text-size-adjust: 12;
+}
+}
+
+font{
+    font-size: large;
+}

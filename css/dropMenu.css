@@ -26,6 +26,25 @@
     float: none;
     width: auto;
   }
+  .nav {
+    font-size: 30px;
+    position: relative;
+  }
+  [for=burger]{
+    display: block;
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    width: 30px;
+    font-size: 80px;
+
+  }
+  nav{
+    display: none;
+  }
+  #burger:checked + label + nav{
+    display: block;
+  }
 }
 
 @media (max-width: 700px) {
@@ -100,5 +119,12 @@
   .extra-container{
     display: none!important;
     float: none;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  [for=burger]{
+    display: block;
   }
 }
